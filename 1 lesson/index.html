@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survrey Form </title>
+  <link rel="stylesheet href="styles.css">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for helping us to improve the platform</p>
+<form id="survey-form">Enter your details Here</form>
+ <div id="survey-form">
+        <fieldset>
+            <legend>Survey</legend>
+            <label type="radio"id="name-label" for="name">Name:</label>
+            <input type="text"  required id="name" placeholder="Enter your Name" name="name">
+       <label id="email-label" for="email">Email:</label>
+       <input type="email" required id="email" placeholder="Enter email "></input>
+       <label  id="number-label" for="number">Number</label>
+       <input type="number" min="1"max="10" required id='number'placeholder="Enter your number"></input>
+        <select id="dropdown">
+          <option> Student<option>
+            <option>jobhoder<option>
+              <option>fulltime-Student<option>
+                <option>Part-time Job <option>
+        </select>
+   <p> what is your favourite course </p>
+
+<input type="radio" name="favourite-courses" value="front-end-Development"
+>Front-endDevelopment</input>
+<input type="radio" name="favourite-courses" value="Backend-Development"
+>Back-endDevelopment</input>
+<p>Do you like coding</p>
+<input type="radio" name="likecoding" value="yes"
+>Yes</input>
+<input type="radio" name="likecoding" value="No"
+>No</input>
+
+
+
+
+
+   <p>what would you like to improve ?</p>
+  <input type="checkbox" value="fullstackdevelopment">challenges</input>
+  <input type="checkbox" value="fullstackdevelopment">open source community</input>
+  <input type="checkbox" value="fullstackdevelopment">Additional courses</input>
+
+<p>Any comments or Suggestions</p>
+<textarea area="comments" rows="4" Cols="50" placeholder="Enter Your Suggestion....">
+</textarea>
+<button id="submit" type="submit"></button>
